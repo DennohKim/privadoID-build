@@ -1,7 +1,8 @@
 
 
-# Chamaa - Build With Celo 4 - MiniPay Hackathon
-## By Dennis Kimathi | Ronnex Ondimu | Ibrahim Aziz
+# Chamaa - Collaborative Social Savings
+
+## By Dennis Kimathi | Ronnex Ondimu | Antony Kimani
 
 ## Screenshot
  ![image](./chamaa-dapp.png)
@@ -62,22 +63,14 @@ Inorder to enhance the app's security and trustworthiness by using decentralized
 ### Technology  Used
 
 - [Celo-composer](https://github.com/celo-org/celo-composer)
-
-Celo Composer is built on Celo to make it simple to build dApps using a variety of front-end frameworks, and libraries.
-
-- [Celo](https://celo.org/)
+- [Privado](https://www.privado.id/)
+- [Celo Blockchain](https://celo.org/)
 - [Solidity](https://docs.soliditylang.org/en/v0.8.19/)
 - [Next.js](https://nextjs.org/)
 - [React.js](https://reactjs.org/)
 - [Shadcn UI](https://ui.shadcn.com/)
 - [Rainbowkit-celo](https://github.com/celo-org/rainbowkit-celo)
 - [Social-Connect](https://github.com/celo-org/SocialConnect#-exampleshttps://github.com/celo-org/SocialConnect#-examples)
-
-SocialConnect is an open source protocol that maps off-chain personal identifiers (such as phone numbers, twitter handles, etc.) to on-chain account addresses. This enables a convenient and interoperable user experience for use cases such as:
-
-- payments - send money directly to your friend's phone number!
-- social discovery - find someone's account based on their twitter!
-- any other identity applications!
 
 
 
