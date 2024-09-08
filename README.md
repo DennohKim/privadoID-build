@@ -22,13 +22,14 @@
 
 ## About Chamaa
 
-Chamaa is a revolutionary DApp built on the Celo Blockchain, inspired by the traditional African Chama model. It aims to empower communities globally by providing a decentralized platform for collaborative social savings.
+Chamaa is a revolutionary DApp, inspired by the traditional African Chama model. It aims to empower communities globally by providing a decentralized platform for collaborative social savings.
 
-With a focus on financial inclusion, Chamaa utilizes the stablecoin cUSD to offer a stable and accessible currency, making it a hedge against inflation, especially in African countries. The app is designed to be inclusive, leveraging Minipay on the Opera Mini browser for usability in low-data network environments. Chamaa is not just a financial tool; it's a community-driven initiative fostering economic empowerment and resilience.
+With a focus on financial inclusion, Chamaa utilizes the stablecoins to offer a stable and accessible currency, making it a hedge against inflation, especially in African countries. The app is designed to be inclusive, leveraging Minipay on the Opera Mini browser for usability in low-data network environments. Chamaa is not just a financial tool; it's a community-driven initiative fostering economic empowerment and resilience.
+
+Inorder to enhance the app's security and trustworthiness by using decentralized identity verification for pool creation, joining, and claiming contributions. Privado ID would allow users to prove their identity and reputation without revealing personal information. For instance, when creating or joining savings pools, users could present verifiable credentials to ensure they are trustworthy members. This would help prevent fraud and improve community trust, while maintaining privacy and promoting inclusivity within the app.
 
 ## Demo video
 
-https://share.vidyard.com/watch/tsfog7C9TCzBysn3VR6KqA?
 
 
 [Go Back to the top](#Chamaa-Dapp-Web-app)
