@@ -88,7 +88,7 @@ export function PoolCard({ pool }: PoolCardProps) {
     }
   };
   return (
-    <Link href={`/${Number(pool.poolID)}`}>
+    <Link href={`/pool/${Number(pool.poolID)}`}>
       <Card className='w-full my-4'>
         <CardHeader>
           <CardTitle>{pool.name}</CardTitle>

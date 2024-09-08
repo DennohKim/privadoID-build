@@ -12,6 +12,7 @@ import { Outfit as FontSans } from 'next/font/google';
 import { Toaster } from 'react-hot-toast';
 import ClientOnly from '@/components/CllientOnly';
 
+
 export const fontSans = FontSans({
   subsets: ['latin'],
   variable: '--font-sans',
@@ -23,7 +24,7 @@ const { chains, publicClient } = configureChains([Celo], [publicProvider()]);
 const connectors = celoGroups({
   chains,
   projectId,
-  appName: (typeof document === "object" && document.title) || "Chama",
+  appName: (typeof document === "object" && document.title) || "Chamaa",
 });
 
 const appInfo = {
@@ -52,7 +53,7 @@ function App({ Component, pageProps }: AppProps) {
           </ClientOnly>
 
           <Toaster position='top-center' />
-        </RainbowKitProvider>
+        </RainbowKitProvider>        
       </WagmiConfig>
     </>
   );

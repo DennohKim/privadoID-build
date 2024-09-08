@@ -14,8 +14,6 @@ export default function MyPools() {
     }
   }, [address, isConnected]);
 
-  
-
 
   return (
     <>

@@ -1,6 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import { Pool, PoolDetails } from '@/interfaces/types';
 import { getPoolsData } from '@/data/pools';
 import { convertBlockTimestampToDate, truncateAddr } from '@/lib/utils';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
@@ -24,10 +23,11 @@ import {
 } from '@/constants/constants';
 import { ethers,Contract } from 'ethers';
 import toast from 'react-hot-toast';
-import { LookupResponse } from './api/lookup';
+import { LookupResponse } from '../api/lookup';
 import { Separator } from '@radix-ui/react-select';
+import { PoolDetails } from '@/interfaces/types';
 
-const PoolDetails = () => {
+const PoolDetailsPage = () => {
   const router = useRouter();
 
   const { address } = useAccount();
@@ -592,4 +592,4 @@ const PoolDetails = () => {
   );
 };
 
-export default PoolDetails;
+export default PoolDetailsPage;

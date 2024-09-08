@@ -67,6 +67,14 @@ export default function Header() {
                       My Pools
                     </Link>
                   </div>
+                  <div className='hidden sm:ml-6 sm:flex sm:space-x-8'>
+                    <Link
+                      href='/verify'
+                      className='inline-flex items-center  px-1 pt-1 text-sm font-medium text-gray-900'
+                    >
+                      Verify
+                    </Link>
+                  </div>
                 </div>
 
                 <div className='absolute inset-y-0 right-0 flex items-center sm:static sm:inset-auto sm:ml-6 sm:pr-0'>
@@ -106,6 +114,13 @@ export default function Header() {
                 className='block  py-2 pl-3 pr-4 text-base font-medium text-black'
               >
                 My Pools
+              </Disclosure.Button>
+              <Disclosure.Button
+                as='a'
+                onClick={() => router.push("/verify")}
+                className='block  py-2 pl-3 pr-4 text-base font-medium text-black'
+              >
+                Verify
               </Disclosure.Button>
               {/* Add here your custom menu elements */}
             </div>
